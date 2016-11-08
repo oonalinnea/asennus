@@ -17,7 +17,9 @@ Ja asennan gitin komennolla
 
 ##Gitin käyttö
 
-Tämän jälkeen teen kotihakemistooni _harjoitus_ nimisen kansion, johon kloonaan repositorion jonka loin GitHub sivustolle. Kopioin GitHubista repositorioni urlin ja syötän komennon **git clone https://github.com/oonalinnea/asennus.git**. Kloonaus onnistuu, joten tämän jälkeen menen _asennus_ kansioon, johon luon _README.md_ tiedoston. 
+Tämän jälkeen teen kotihakemistooni _harjoitus_ nimisen kansion, johon kloonaan repositorion jonka loin GitHub sivustolle. Kopioin GitHubista repositorioni urlin ja syötän komennon 
+* **git clone https://github.com/oonalinnea/asennus.git**. 
+Kloonaus onnistuu, joten tämän jälkeen menen _asennus_ kansioon, johon luon _README.md_ tiedoston. 
 
 Kirjoitan tiedostoon hieman tätä kyseistä raporttia jonka jälkeen tallennan tiedoston. Ajan komennon **git add .** ja **git commit**, jonka jälkeen git pyytää antamaan sähköpostiosoitteeni ja nimeni, koska tämä on ensimmäinen kerta kun käytän gittiä. Syötän tiedot komennoilla **git config --global user.email "spostiosoite"** ja **git config --global user.name "oma nimi"**. Tämän jälkeen ajan komennon **git pull** ja **git push**, joka vaatii githubin tunnuksen ja salasanan syöttämistä. Syötän tarvittavat tiedot, jonka jälkeen päivitän githubin ja _README.md_ on ilmestynyt sinne. Gitin käyttö siis onnistui ja toimii. Ajan myös tässä välissä komennon **git config --global credential.helper "cache --timeout=3600"**, jotta minun ei tarvitse jatkuvasti syöttää käyttäjänimeäni ja tunnustani. 
 
