@@ -9,11 +9,8 @@ h5. Tee moduli git-varastoon ja kirjoita raportti sinne MarkDownilla.
 ##Tehtävän aloitus
 
 Boottaan linuxin livetikulta ja avaan terminaalin. Ensimmäiseksi ajan komennot
-
 setxkbmap fi
-
 sudo apt-get update
 
 Ja asennan gitin komennolla
-
 sudo apt-get install -y git
