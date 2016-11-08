@@ -9,8 +9,22 @@ h5. Tee moduli git-varastoon ja kirjoita raportti sinne MarkDownilla.
 ##Tehtävän aloitus
 
 Boottaan linuxin livetikulta ja avaan terminaalin. Ensimmäiseksi ajan komennot
-setxkbmap fi
-sudo apt-get update
+* setxkbmap fi
+* sudo apt-get update
 
 Ja asennan gitin komennolla
-sudo apt-get install -y git
+* sudo apt-get install -y git
+
+##Gitin käyttö
+
+Tämän jälkeen teen kotihakemistooni _harjoitus_ nimisen kansion, johon kloonaan repositorion jonka loin GitHub sivustolle. Kopioin GitHubista repositorioni urlin ja syötän komennon **git clone https://github.com/oonalinnea/asennus.git**. Kloonaus onnistuu, joten tämän jälkeen menen _asennus_ kansioon, johon luon _README.md_ tiedoston. 
+
+Kirjoitan tiedostoon hieman tätä kyseistä raporttia jonka jälkeen tallennan tiedoston. Ajan komennon **git add .** ja **git commit**, jonka jälkeen git pyytää antamaan sähköpostiosoitteeni ja nimeni. Syötän tiedot komennoilla **git config --global user.email "spostiosoite"** ja **git config --global user.name "oma nimi"**. Tämän jälkeen ajan komennon **git pull** ja **git push**, joka vaatii githubin tunnuksen ja salasanan syöttämistä. Syötän tarvittavat tiedot, jonka jälkeen päivitän githubin ja _README.md_ on ilmestynyt sinne. Gitin käyttö siis onnistui ja toimii. 
+
+##Moduuli
+
+
+
+
+
+
